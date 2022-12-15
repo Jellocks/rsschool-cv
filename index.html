@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="nav__items">
+                    <li class="nav__item">Contacts</li>
+                    <li class="nav__item">Summary</li>
+                    <li class="nav__item">Skills</li>
+                    <li class="nav__item">Education</li>
+                    <li class="nav__item">English</li>
+                </ul>
+            </nav>
+            <div class="about__me">
+                <div class="nameSurname">
+                    <h1>Vladislav Dobrosotkiy</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </div>
+                <div class="myAvatar">
+                    <img src="./assets/image.jpg" class="avatar" alt="image">
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="table">
+                <div class="contacts">
+                    <h2>Contacts:</h2>
+                    <ul class="contacts__items">
+                        <li class="contacts__item">Location: Taraz,Kazakhstan</li>
+                        <li class="contacts__item">Phone: +7(705)-24-07-469</li>
+                        <li class="contacts__item">Email: resik1000@yandex.ru</li>
+                        <li class="contacts__item">Github: https://github.com/Jellocks</li>
+                    </ul>
+                </div>
+                <div class="about">
+                    <h2>About me:</h2>
+                    <p class="summary__text">
+                        I am good at learning new.
+                    </p>
+                </div>
+                <div class="skills">
+                    <h2>My skills:</h2>
+                    <ul class="skills__items">
+                        <li class="skills__item">HTML</li>
+                        <li class="skills__item">CSS</li>
+                        <li class="skills__item">Javascript(Basic)</li>
+                        <li class="skills__item">Git</li>
+                    </ul>
+                </div>
+                <div class="code">
+                    <h2>Code:</h2>
+                    <p>const panels = document.querySelectorAll('.panel')
+                        <br>
+
+                        panels.forEach(panel => {
+                        <br>
+                        panel.addEventListener('click', () => {
+                        <br>
+                        removeActiveClasses()
+                        <br>
+                        panel.classList.add('active')
+                        <br>
+                        })
+                        <br>
+                        })
+
+                        function removeActiveClasses() {
+                        panels.forEach(panel => {
+                        panel.classList.remove('active')
+                        })
+                        }
+                    </p>
+                </div>
+                <div class="education">
+                    <h2>Education:</h2>
+                    <p>University:Saint-Petersburg University Named Bonch-Bruevich</p>
+                </div>
+                <div class="english">
+                    <h2>English:</h2>
+                    <p>B2</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <h2>2022</h2>
+                <a href="https://github.com/Jellocks" class="footer__link">Jellocks</a>
+                <a href="https://rs.school/js/" class="footer__link"><img src="./assets/image2.svg" alt="image"
+                        class="footer__img"></a>
+            </div>
+
+
+        </div>
+    </footer>
+</body>
+
+</html>
